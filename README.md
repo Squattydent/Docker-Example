@@ -5,7 +5,7 @@ Apache 2.4.18 + PHP 5.6.31 (Tester at Ubuntu 16.04.3)
 ## Build ##
 
 ```
-docker build -t lippep/php56:latest .
+docker build -t lippep/php5.6:latest .
 ```
 
 ## Running a container ##
@@ -17,7 +17,7 @@ docker run -d \
 	-v folder-to-www:/var/www/html \
 	-v folder-to-vhosts:/etc/apache2/sites-enabled \
 	--name any.name.here \
-	lippep/php54
+	lippep/php5.6
 ```
 
 ## Windows users ##
